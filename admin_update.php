@@ -22,7 +22,7 @@ if (isset($_POST['update_product'])) {
             move_uploaded_file($product_image_tmp_name, $product_image_folder);
             header('location:admin_page.php');
         } else {
-            $message[] = 'Please filll out all necessary fields!';
+            $message[] = 'Please fill out all necessary fields!';
         }
     }
 };
